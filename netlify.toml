@@ -1,0 +1,12 @@
+[build]
+  # Next.js App Router uses the .next folder for its output
+  publish = ".next"
+  command = "npm run build"
+  # This tells Netlify where your serverless functions are located
+  functions = "netlify-functions"
+
+[[redirects]]
+  # This sets up a URL path for your functions, making them easy to call from React
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
