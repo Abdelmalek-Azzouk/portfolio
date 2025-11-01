@@ -55,8 +55,7 @@ export default function Header() {
           : 'bg-transparent border-b border-white/5'
       }`}
     >
-      <div className="w-full flex justify-center">
-        <div className="container mx-auto px-6 py-4 max-w-7xl w-full">
+      <div className="container mx-auto px-6 py-4 max-w-7xl">
           <div className="flex justify-between items-center">
           <a 
             href="#home" 
@@ -139,7 +138,6 @@ export default function Header() {
               </a>
             ))}
           </nav>
-          </div>
         </div>
       </div>
     </header>

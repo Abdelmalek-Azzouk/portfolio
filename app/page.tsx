@@ -22,12 +22,10 @@ export default function Home() {
       
       {/* Footer */}
       <footer className="relative z-10 py-8 px-6 border-t border-white/10">
-        <div className="w-full flex justify-center">
-          <div className="container mx-auto max-w-6xl text-center w-full">
+        <div className="container mx-auto max-w-7xl text-center">
           <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} AI/ML Portfolio. Built with Next.js and Tailwind CSS.
           </p>
-          </div>
         </div>
       </footer>
     </main>

@@ -79,8 +79,7 @@ export default function Contact() {
 
   return (
     <section ref={sectionRef} id="contact" className="relative py-24 px-6">
-      <div className="w-full flex justify-center">
-        <div className="container mx-auto max-w-7xl w-full">
+      <div className="container mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 font-[var(--font-space-grotesk)]">
@@ -218,7 +217,6 @@ export default function Contact() {
               </button>
             </form>
           </div>
-        </div>
         </div>
       </div>
     </section>

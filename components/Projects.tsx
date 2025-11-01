@@ -65,8 +65,7 @@ export default function Projects() {
 
   return (
     <section ref={sectionRef} id="projects" className="relative py-24 px-6">
-      <div className="w-full flex justify-center">
-        <div className="container mx-auto max-w-7xl w-full">
+      <div className="container mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 font-[var(--font-space-grotesk)]">
@@ -152,7 +151,6 @@ export default function Projects() {
               <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
             </div>
           ))}
-        </div>
         </div>
       </div>
     </section>
